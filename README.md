@@ -1,3 +1,7 @@
+__NOTE: This package is virtually identical to the one at [ProseMirror/prosemirror-tables]
+(https://github.com/ProseMirror/prosemirror-tables) with the exception that the build has been
+adjusted to transpile using babel instead of buble and should now be ES6 compatible.__
+
 # ProseMirror table module
 
 This module defines a schema extension to support tables with
