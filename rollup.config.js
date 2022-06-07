@@ -1,4 +1,4 @@
-import buble from '@rollup/plugin-buble';
+import { babel } from '@rollup/plugin-babel';
 
 export default {
   input: './src/index.js',
@@ -14,7 +14,7 @@ export default {
       sourcemap: true,
     },
   ],
-  plugins: [buble()],
+  plugins: [babel({ babelHelpers: 'bundled' })],
   external(id) {
     return !/^[\.\/]/.test(id);
   },
