@@ -1,15 +1,27 @@
 import { babel } from '@rollup/plugin-babel';
 
+import { name, main, umd, module } from './package.json';
+
+console.log(main, umd, module);
+
 export default {
   input: './src/index.js',
   output: [
     {
-      file: 'dist/index.js',
+      name,
+      file: main,
       format: 'cjs',
       sourcemap: true,
     },
     {
-      file: 'dist/index.es.js',
+      name,
+      file: umd,
+      format: 'umd',
+      sourcemap: true,
+    },
+    {
+      name,
+      file: module,
       format: 'es',
       sourcemap: true,
     },

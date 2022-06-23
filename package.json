@@ -2,12 +2,12 @@
   "name": "prosemirror-tables-contently",
   "version": "1.1.2",
   "description": "ProseMirror's rowspan/colspan tables component with ES6 support",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
+  "main": "dist/index.cjs.js",
+  "umd": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
   "style": "style/tables.css",
   "typings": "./index.d.ts",
   "license": "MIT",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git://github.com/prosemirror/prosemirror-tables.git"
