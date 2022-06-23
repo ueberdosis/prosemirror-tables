@@ -1,5 +1,5 @@
 {
-  "name": "prosemirror-tables-contently",
+  "name": "@ueberdosis/prosemirror-tables",
   "version": "1.1.2",
   "description": "ProseMirror's rowspan/colspan tables component with ES6 support",
   "main": "dist/index.cjs.js",
@@ -14,8 +14,8 @@
   },
   "maintainers": [
     {
-      "name": "Michael Bostler",
-      "email": "mbostler@contently.com"
+      "name": "Dominik Biedebach",
+      "email": "dominik.biedebach@ueber.io"
     }
   ],
   "dependencies": {
